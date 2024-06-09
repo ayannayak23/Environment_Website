@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <link rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href=".assets/images/little-tree-icon-isolated-contour-symbol-vector-28395125.jpg"
+    />
+    <link rel="stylesheet" href="style.css">
+    <script src="Newsletter.js" defer></script>
+    <script src="signup.js" defer></script>
+    <title>Web dev Project</title>
+
+  </head>
+
+  <body>
+    <section id="section-newsletter">
+      
+      <div class="card">
+        <div class="right">
+          <h1> Stay updated! </h1>
+          <p> Join the newsletter </p>
+          <ul>
+            <li> Help the climate </li>
+            <li> Only use clean energy </li>
+            <li> And much more! </li>
+          </ul>
+          <form>
+            <label for="First">First Name</label>
+            <input type="First" id="First" placeholder="First Name">
+            <label for="Last">Last Name</label>
+            <input type="Last" id="Last" placeholder="Last Name">
+            <label for="email">Email address</label>
+            <input 
+            type="email"
+            id="email" 
+            placeholder="email@company.com"
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+            title="Enter a valid email address"
+            required
+            />
+            <label for="message">Type message here</label>
+            <textarea text="text" id="message" name="message" required
+              aria-required="true"></textarea>
+            <button type="submit">Subscribe to monthly newsletter</button>
+          </form>
+        </div>
+        <div class="left">
+          <img src="./assets/images/photo-1611270418597-a6c77f4b7271.avif" alt="">
+        </div>
+      </div>
+
+      
+      <div class="card-2 hide">
+        <img src="./assets/images/icon-success.svg" class="icon-card-2">
+        <div id="complete">
+        </div>
+      </div>
+
+    </section>
+  </body>
+</html>
