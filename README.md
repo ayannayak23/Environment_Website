@@ -1,4 +1,5 @@
-Environmental Awareness Website
+Environmental Awareness Website:
+
 Overview
 This project is an environmental awareness website created as part of my coursework for the Computing Science program at the University of East Anglia. The website aims to educate users about various environmental issues, promote sustainable practices, and provide resources for individuals looking to make a positive impact on the environment.
 
